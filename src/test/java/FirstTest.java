@@ -16,12 +16,12 @@ public class FirstTest {
 
     }
 
-   @Test
+    @Test
     public void Test2() throws InterruptedException {
-    ChromeDriver driver = new ChromeDriver();
-    login login = new login();
-    login.funcLogin(driver);
-    login.funcBrowserClose(driver);
+        ChromeDriver driver = new ChromeDriver();
+        login login = new login();
+        login.funcLogin(driver);
+        login.funcBrowserClose(driver);
 
-}
+    }
 }
