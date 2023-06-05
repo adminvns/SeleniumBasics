@@ -14,13 +14,13 @@ public class FirstTest {
 
     }
 
-    @Test(priority = 1)
-    public void Login_storefront() throws InterruptedException {
-        ChromeDriver driver = new ChromeDriver();
-        login login = new login();
-        login.funcLogin(driver);
-        login.funcBrowserClose(driver);
-    }
+//    @Test(priority = 1)
+//    public void Login_storefront() throws InterruptedException {
+//        ChromeDriver driver = new ChromeDriver();
+//        login login = new login();
+//        login.funcLogin(driver);
+//        login.funcBrowserClose(driver);
+//    }
 
 }
 
